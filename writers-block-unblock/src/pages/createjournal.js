@@ -5,7 +5,7 @@ const CreateJournal = () => {
     return (
         <div>
         <Header></Header>
-            <h1>Create Journal</h1>
+            <h1>Create a Journal</h1>
         </div>
     );
 }

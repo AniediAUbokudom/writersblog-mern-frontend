@@ -1,0 +1,11 @@
+.pageBody{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(15, 1, 10);
+    background-image: url("https://img.freepik.com/free-photo/white-smoke-elements-black-background-with-copy-space-writing-text_23-2148092442.jpg?w=740&t=st=1696891969~exp=1696892569~hmac=1fd9f19da437dcb83fb1a568205ea9459a11da9ab54509dd620ac9f6156e10ea");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}

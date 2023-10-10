@@ -12,12 +12,16 @@
     width: 60px;
     height: 60px;
 }
+.pageName{
+    color: rgb(175, 163, 170)
+}
 .about-us{
-
+    font-size: larger;
+    color: rgb(175, 163, 170);
+    font-weight: 900;
 }
 .about-us:hover{
     color: rgb(243,17,112);
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -31,4 +35,7 @@
     text-decoration: none;
     color:black;
     cursor: pointer;
+}
+.header-about-link{
+    text-decoration: none;
 }

@@ -1,0 +1,50 @@
+.categories {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+
+  justify-content: space-evenly;
+}
+.navHeader{
+    font-family: cursive;
+}
+.navText {
+  font-family:cursive;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}
+.navText:hover {
+  cursor: pointer;
+  color: rgb(243, 17, 112);
+}
+.createJournalImage {
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+  background: #cbbc10;
+  padding: 4px;
+}
+.promptImage {
+  border-radius: 10%;
+  width: 170px;
+  height: 160px;
+  background: #137bdd;
+  padding: 4px;
+}
+.allJournalImage {
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+  background: #057e52;
+  padding: 4px;
+}
+.create-journal-link {
+  text-decoration: none;
+}
+.withPrompt-link {
+  text-decoration: none;
+}
+.viewJournals-link {
+  text-decoration: none;
+}
