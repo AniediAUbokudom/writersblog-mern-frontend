@@ -1,0 +1,11 @@
+/* .createJournalBody{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+} */
+.createJournalForm{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(15, 12, 1);
+}

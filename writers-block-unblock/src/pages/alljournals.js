@@ -5,7 +5,7 @@ const AllJournals = () => {
     return (
         <div>
         <Header></Header>
-            <h1>All Journals</h1>
+            <h2>All Journals</h2>
         </div>
     );
 }
