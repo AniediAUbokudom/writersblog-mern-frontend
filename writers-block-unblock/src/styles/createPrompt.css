@@ -1,0 +1,16 @@
+.createPromptBody {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  font-family: cursive;
+}
+.createPromptForm {
+  padding: 10px;
+  margin: 10px;
+  background-image: url("https://images.unsplash.com/photo-1593959734793-6e92d102da1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGJsdWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  /* background-color: rgb(52, 79, 159); */
+}
+.submitButtonPrompt {
+  color: rgb(9, 23, 103);
+  padding: 5px;
+}

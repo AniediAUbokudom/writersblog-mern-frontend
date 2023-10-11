@@ -1,0 +1,10 @@
+.aboutBody {
+  
+  border: 1px solid grey;
+  padding: 30px;
+  margin: 10px;
+  font-family: cursive;
+}
+.aboutText{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3xOUICaOyA7uaXitQ1bDTX3eolxUqNGuHg&usqp=CAU");
+}

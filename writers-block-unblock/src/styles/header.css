@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin: 10px;
     width: 90%;
+    font-family: cursive;
 }
 .logo-container{
     display: flex;
@@ -13,7 +14,8 @@
     height: 60px;
 }
 .pageName{
-    color: rgb(175, 163, 170)
+    color: rgb(175, 163, 170);
+    padding: 5px;
 }
 .about-us{
     font-size: larger;

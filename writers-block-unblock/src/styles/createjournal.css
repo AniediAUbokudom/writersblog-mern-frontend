@@ -1,11 +1,19 @@
-/* .createJournalBody{
-    border: 1px solid grey;
-    padding: 10px;
-    margin: 10px;
-} */
-.createJournalForm{
-    border: 1px solid grey;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(15, 12, 1);
+.createJournalBody {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  font-family: cursive;
+}
+.createJournalForm {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(199, 151, 29);
+}
+
+.submitButtonCreate {
+  color: darkgoldenrod;
+  padding: 5px;
+}
+.journalTitle {
+  width: 30%;
 }
