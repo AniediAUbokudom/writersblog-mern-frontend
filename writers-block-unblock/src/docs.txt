@@ -47,3 +47,7 @@ try {
 } catch (error) {
 	console.error(error);
 }
+
+All Journals Page (title , edit icon and delete)
+    >> Edit button >> Edit Page
+    >> Delete button

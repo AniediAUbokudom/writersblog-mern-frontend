@@ -4,3 +4,9 @@
     margin: 10px;
     font-family: cursive; 
 }
+.actionButtons{
+    display:flex;
+    column-gap: 10px;
+    justify-content:flex-end;
+
+}

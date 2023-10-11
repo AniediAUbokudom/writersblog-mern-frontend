@@ -10,6 +10,7 @@ import AllJournals from './pages/alljournals';
 import PostedJournal from './pages/postedjournal';
 
 import reportWebVitals from './reportWebVitals';
+import EditPage from './pages/editPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
      <Route path="/prompt" element={<CreateByPromptJournal></CreateByPromptJournal>}/>  {/* Writing Promp Route */}
      <Route path="/journals" element={<AllJournals></AllJournals>}/>  {/* All Journals Route */}
      <Route path="/post/:journalId" element={<PostedJournal></PostedJournal>}/>  {/* All Journals Route */}
+     <Route path="/edit" element={<EditPage></EditPage>}/>
     </Routes>
   </Router>
 );

@@ -1,0 +1,42 @@
+[
+    {
+        "name":"create-journal",
+        "api":"http://localhost:3000/create-journal",
+        "request-type":"post",
+        "content-type":"json-body"
+    },
+    {
+        "name":"update-journal",
+        "api":"http://localhost:3000/update-journal",
+        "request-type":"post",
+        "content-type":"json-body, uid parameter"
+    },
+    {
+        "name":"delete-journal",
+        "api":"http://localhost:3000/delete-journal",
+        "request-type":"delete",
+        "content-type":"json-body"
+    },
+    {
+        "name":"read-all-journal",
+        "api":"http://localhost:3000/read-all-journal",
+        "request-type":"get",
+        "content-type":"-"
+    },
+    {
+        "name":"read-journal-byId",
+        "api":"http://localhost:3000/read-journal-byId",
+        "request-type":"get",
+        "content-type":"uid parameter"
+    },
+    {
+        "name":"get-prompt",
+        "api":"https://ai-quotes61.p.rapidapi.com/get_quote",
+        "request-type":"get",
+        "content-type":"-",
+        "headers": {
+          "X-RapidAPI-Key": "d1be20c3a6msh2f66926ca67aec1p1a361djsnf75b82ea041d",
+          "X-RapidAPI-Host": "ai-quotes61.p.rapidapi.com"
+        }
+    }
+]
