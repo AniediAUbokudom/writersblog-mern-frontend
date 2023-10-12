@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+Introduction:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a creative writer and an emerging software engineer, I attempted to create a writing app to help writers deal with writer’s blog. 
 
-## Available Scripts
+The app has a create journal page, which contains a template of the same questions for writers who want to start somewhere or want some motivation to begin writing.
 
-In the project directory, you can run:
+It has a prompts page that utilizes a random topic generator for writers who are struggling to come up with an idea.
 
-### `npm start`
+It also features an all-Journals page for writers to track their writing progress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ 
+I watched various tutorials and sought help from experienced software developers to get to this point. 
+In addition to the class tutorials, these are some of the tutorials I used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://www.youtube.com/watch?v=ACNGhBfNftA&list=PLgp11Hu-N4DT59rXjR57hhy6pMH3I2yHU
+https://www.youtube.com/watch?v=KtnHb7FMk2Q&list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO
 
-### `npm test`
+Technologies Used:
+-  For my Frontend/client, I used:
+  - React
+  - Ajax for API communication
+  - UID for generating unique post IDs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Getting Started:
 
-### `npm run build`
+Project Planning: To get started, I used Figma to create some wireframes of what I thought it should look like:
+https://www.figma.com/file/uQu10qVwoDOf0Z2WRVkmoA/Writersblockunblock?type=design&node-id=0-1&mode=design&t=LK60ON3xR0xqsemP-0
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Unsolved Problems: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+One of the biggest challenges I have had has been using ajax to fetch data from the server.
+I managed to use it to finish this project somehow, but I’ll visit Ajax after this project.
+I was also unable to find APIs to generate random topics, so I ended up using one that generates random dad jokes, to fulfil the requirement of including a secondary API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Future Enhancements:
+I am turning this app into a full blog with more functional pages that can be used by other writers.
+Find more organic pictures, instead of stock images.
+Rewrite the style sheets so I don’t have so many stylings that could have been grouped together.
+Find or build an API that generates a random topic for writers.
 
-### `npm run eject`
+Attempt to use Axios, instead of Ajax. 
+I stumbled on Axios while creating this project, and it seemed easier to use than Ajax.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contribution:
+To contribute to this project or create your own writing app from this,
+Have:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Node.js, npm, and depencies installed on your machine.
+- MongoDB installed and running locally or on a remote server.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Clone this repository:
+You’re ready to work.
