@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const deleteJournalFromServer = async (uid) => {
   try {
     const response = await fetch(
-      `http://localhost:3100/delete-journal?uid=${uid}`,
+      `https://writersblock-backend.onrender.com/delete-journal?uid=${uid}`,
       {
         method: "DELETE",
       }
@@ -23,7 +23,7 @@ const deleteJournalFromServer = async (uid) => {
 const AllJournals = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3100/read-all-journal")
+    fetch("https://writersblock-backend.onrender.com/read-all-journal")
       .then((res) => res.json())
       .then(
         (result) => {

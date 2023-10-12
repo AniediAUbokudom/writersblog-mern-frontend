@@ -1,31 +1,31 @@
 [
     {
         "name":"create-journal",
-        "api":"http://localhost:3100/create-journal",
+        "api":"https://writersblock-backend.onrender.com/create-journal",
         "request-type":"post",
         "content-type":"json-body"
     },
     {
         "name":"update-journal",
-        "api":"http://localhost:3100/update-journal",
+        "api":"https://writersblock-backend.onrender.com/update-journal",
         "request-type":"post",
         "content-type":"json-body, uid parameter"
     },
     {
         "name":"delete-journal",
-        "api":"http://localhost:3100/delete-journal",
+        "api":"https://writersblock-backend.onrender.com/delete-journal",
         "request-type":"delete",
         "content-type":"json-body"
     },
     {
         "name":"read-all-journal",
-        "api":"http://localhost:3100/read-all-journal",
+        "api":"https://writersblock-backend.onrender.com/read-all-journal",
         "request-type":"get",
         "content-type":"-"
     },
     {
         "name":"read-journal-byId",
-        "api":"http://localhost:3100/read-journal-byId",
+        "api":"https://writersblock-backend.onrender.com/read-journal-byId",
         "request-type":"get",
         "content-type":"uid parameter"
     },

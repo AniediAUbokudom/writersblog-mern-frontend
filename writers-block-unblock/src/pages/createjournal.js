@@ -10,7 +10,7 @@ const createJournalFromServer = async (title, content, date) => {
     date: date
   });
   try {
-    const response = await fetch("http://localhost:3100/create-journal", {
+    const response = await fetch("https://writersblock-backend.onrender.com/create-journal", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',

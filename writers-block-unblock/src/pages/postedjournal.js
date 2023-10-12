@@ -10,7 +10,7 @@ const updateJournalFromServer = async (uid,title, content, date) => {
       date: date
     });
     try {
-      const response = await fetch(`http://localhost:3100/update-journal?uid=${uid}`, {
+      const response = await fetch(`https://writersblock-backend.onrender.com/update-journal?uid=${uid}`, {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
@@ -27,7 +27,7 @@ const PostedJournal = () => {
     const {journalId}=useParams()
     const [valueInput, setInputs] = useState({})
     useEffect(() => {
-      fetch(`http://localhost:3100/read-journal-byId?uid=${journalId}`)
+      fetch(`https://writersblock-backend.onrender.com/read-journal-byId?uid=${journalId}`)
         .then(res => res.json())
         .then(
           (result) => {
