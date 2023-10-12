@@ -4,9 +4,23 @@
     margin: 10px;
     font-family: cursive; 
 }
-.actionButtons{
-    display:flex;
-    column-gap: 10px;
-    justify-content:flex-end;
-
+.journal-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.journal-text-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.journal-sub-text-body{
+    display: flex;
+    max-width: 200px;
+}
+.journal-sub-text{
+    font-weight: normal;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }

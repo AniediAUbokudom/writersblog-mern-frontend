@@ -1,6 +1,7 @@
 .flex-style{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     row-gap: 10px;
     column-gap: 10px;
     margin: 20px;
@@ -9,6 +10,7 @@
 .div-border{
     border-radius: 10px;
     padding: 10px;
+    margin: 10px;
 }
 .div-black-border{
     border:1px solid black;
@@ -16,4 +18,21 @@
 
 .p-color{
     color: black;
+}
+.button{
+    border-radius: 10px;
+    background-color: green;
+    font-size:15px;
+    width:150px;
+    height: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+}
+.edit-button{
+    background-color: green;
+}
+.delete-button{
+    background-color: red;
 }

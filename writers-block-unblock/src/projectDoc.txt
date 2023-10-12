@@ -1,0 +1,35 @@
+>> Home Page
+>> Header
+    >> Logo
+    >> Website Name: Writer's Block-Unblock
+    >> About => Navigates to About Page
+>> Line Separating Header and Body
+    >> Random quotes about writing
+    >> Where do you want to begin?
+        >> Create Journal Navigatorder Button
+        >> Create Using Writing Prompt -- Topic Generator
+            >> Use external API to generate
+        >> All Journal Post
+
+>> Assets
+    >> Logo <Resolved>
+    >> Quote Image<Resolved>
+    >> Icon/Image for Create Journal<Resolved>
+    >> Icon/Image for Writing Prompt<Resolved>
+    >> All Journals Icon/Image<Resolved>
+
+>> APIs
+    >> Creating/Reading/Updating/Deleting Journal - InApp <Resolved>
+    >> For Generating Prompt - External <Resolved>
+
+>> HomePage <Resolved>
+>> Create Journal Page <Resolved>
+>> Create By Prompt Page <Resolved>
+>> All Journals <Resolved>
+>> Posted Journals <Resolved>
+>> About Page <Resolved>
+
+
+All Journals Page (title , edit icon and delete) <Resolved>
+    >> Edit button >> Edit Page 
+    >> Delete button
