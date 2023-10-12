@@ -1,14 +1,13 @@
 Introduction:
 
-As a creative writer and an emerging software engineer, I attempted to create a writing app to help writers deal with writer’s blog. 
+As a creative writer and an emerging software engineer, I attempted to create a writing app to help writers deal with writer’s blog. ![Alt text](image.png)
 
 The app has a create journal page, which contains a template of the same questions for writers who want to start somewhere or want some motivation to begin writing.
 
 It has a prompts page that utilizes a random topic generator for writers who are struggling to come up with an idea.
 
-It also features an all-Journals page for writers to track their writing progress.
-
- 
+It also features an all-Journals page for writers to track their writing progress, edit, and update their posts.
+![`Alt text`](image-1.png)
 I watched various tutorials and sought help from experienced software developers to get to this point. 
 In addition to the class tutorials, these are some of the tutorials I used:
 
